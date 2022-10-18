@@ -10,18 +10,18 @@ body{
 
 main{
     background-color: white;
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 280px;
     margin: auto;
     margin-top: 50px;
     max-width: 1000px;
-    min-width: 400px;
+    min-width: 300px;
     border-radius: 10px;
 }
 
 div.card{
-    height: 240px;
-    width: 250px;
+    height: 140px;
+    width: 150px;
     background-color: black;
     color: white;
     margin-top: 10px;
@@ -46,14 +46,16 @@ div.card h3{
     color: white;
 }
 
-div.card h3::after{
+/*div.card h3::after{
     content: '';
     display: block;
     background-color: blueviolet;
     width: 250px;
     height: 2px;
     color: white;
-}
+}*/
+
+
 
 div.card:hover{
     transition: 0.4s;
@@ -77,8 +79,6 @@ a.bt-compra p{
 }
 
 a.bt-compra p:hover{
-    border: 1px solid green;
-    background-color: white;
-    color: green;
     transition: 0.4s;
+    padding: 25px;
 }
