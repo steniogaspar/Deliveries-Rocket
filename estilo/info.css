@@ -7,14 +7,17 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
+    background-image: linear-gradient(to top, #292929, #404040);
     color: white;
-    background-image: url('../imagens/D33BC189-F56D-437E-970E-EE3CF9963B77.jpeg');
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 h1{
+    text-align: center;
+}
+
+h2{
     text-align: center;
 }
 
@@ -27,10 +30,14 @@ main{
     max-width: 1000px;
     min-width: 300px;
     margin: auto;
+    background-image: url('../imagens/D33BC189-F56D-437E-970E-EE3CF9963B77.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 p{
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     margin-left: 10px;
 }
