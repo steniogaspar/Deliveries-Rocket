@@ -7,7 +7,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to top, #292929, #404040);
+    background-image: linear-gradient(to left, #292929, #404040);
     color: white;
     background-repeat: no-repeat;
     background-position: center center;
@@ -30,7 +30,7 @@ main{
     max-width: 1000px;
     min-width: 300px;
     margin: auto;
-    background-image: url('../imagens/D33BC189-F56D-437E-970E-EE3CF9963B77.jpeg');
+    background-image: url('../imagens/fundo.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -40,4 +40,5 @@ p{
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 10px;
+    padding: 5px;
 }
