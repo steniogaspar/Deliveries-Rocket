@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    background-image: url('../imagens/D33BC189-F56D-437E-970E-EE3CF9963B77.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+h1{
+    text-align: center;
+}
+
+h2, strong{
+    color: yellow;
+}
+
+main{
+    width: 600px;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+}
+
+p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
