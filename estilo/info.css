@@ -7,38 +7,36 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to left, #292929, #404040);
+    background-image: linear-gradient(to right, #292929, #404040);
     color: white;
-    background-repeat: no-repeat;
-    background-position: center center;
 }
 
 h1{
+    margin-top: 20px;
     text-align: center;
 }
 
 h2{
     text-align: center;
-}
-
-h2, strong{
     color: yellow;
 }
 
-main{
-    width: 600px;
-    max-width: 1000px;
-    min-width: 300px;
-    margin: auto;
-    background-image: url('../imagens/fundo.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
+strong{
+    color: yellow;
 }
 
-p{
+main p{
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-left: 10px;
-    padding: 5px;
+}
+
+main{
+    min-width: 400px;
+    max-width: 1000px;
+    width: 600px;
+    margin: auto;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('../imagens/fundo.png');
 }
