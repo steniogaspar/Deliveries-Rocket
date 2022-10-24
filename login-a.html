@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/login-a.css">
+    <title>Deliveries Rocket</title>
+</head>
+<body>
+    <main>
+        <form action="home.html" method="post" autocomplete="on">
+            <p>
+                <label for="iemail">Email</label>
+                <input type="email" name="email" id="iemail" autocomplete="email" required maxlength="32" placeholder="Coloque seu email">
+            </p>
+            <p>
+                <label for="isenha">Senha</label>
+                <input type="password" name="senha" id="isenha" autocomplete="new-password" minlength="8" maxlength="32" required placeholder="Coloque a senha">
+            </p>
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome de usuario">
+            </p>
+            <p>
+                <label for="icartão">Dados do Cartão</label>
+                    <input type="number" name="cartão" id="icartão" required maxlength="16"  minlength="12" placeholder="0000-0000-0000-0000">
+            </p>
+            <p>
+                <label for="isenha-cartao">Codigo do cartão</label>
+                <input type="password" name="senha-cartao" id="isenha-cartao" required minlength="2" maxlength="4" placeholder="XXXX">
+            </p>
+            <p>
+                <input id="confirmar" type="submit" value="Confirmar">
+                <input id="cancelar" type="reset" value="Cancelar">
+            </p>
+        </form>
+    </main>
+</body>
+</html>
