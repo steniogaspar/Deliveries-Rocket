@@ -10,21 +10,95 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-menu{
-    background-color: black;
+header{
+    background-color: #909090;
+    padding: 25px;
+    background: url('../imagens/fundo-cards.png') no-repeat center center;
+    background-size: cover;
 }
 
-div.header{
-    background-color: black;
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, serif;
+header > h1{
+    font-size: 2.3em;
     text-align: center;
-    padding: 20px;
-    width: 100vw;
+    color: white;
+}
+
+header > p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+    font-size: 1.3em;
+}
+
+i#burguer{
+    background-color: #404040;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burguer:hover{
+    background-color: white;
+    color: black;
+}
+
+menu{
+    display: block;
+    background-color: #505050;
+}
+
+menu > ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+
+menu > a{
+    padding: 10px;
+    text-decoration: none;
+    background-color: #292929;
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    display: inline-flex;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    transition-duration: 0.4s;
+}
+
+menu > a:hover{
+    background-color: white;
+    color: green;
+    transform: translate(-2px, -2px);
+}
+
+menu > ul > li{
+    background-color: green;
+}
+
+menu > ul > li > a:hover{
+    background-color: rgb(193, 190, 190);
+    color: #595959;
+}
+
+.used{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+.used:hover{
+    color: white;
+    background-color: green;
 }
 
 div.container{
-    width: 800px;
+    width: 80vw;
     height: 100vh;
     margin: auto;
     max-width: 1000px;
@@ -75,4 +149,22 @@ div.card h3::after{
 div.card:hover{
     transition: 0.4s;
     color: white;
+}
+
+@media screen and (max-width: 767px) /*teleefone*/ {
+   
+    *{
+        margin: 0px;
+    }
+
+    menu{
+        display: none;
+    }
+
+    div.container{
+        margin-left: 3px;
+        width: 70vw;
+        max-width: 1000px;
+        min-width: 600px;
+   } 
 }
