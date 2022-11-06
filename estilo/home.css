@@ -11,6 +11,7 @@ body{
 }
 
 header{
+    margin: auto;
     background-color: #909090;
     padding: 25px;
     background: url('../imagens/fundo-cards.png') no-repeat center center;
@@ -39,6 +40,7 @@ i#burguer{
     text-align: center;
     padding: 10px;
     cursor: pointer;
+    margin: auto;
 }
 
 i#burguer:hover{
@@ -98,11 +100,11 @@ menu > ul > li > a:hover{
 }
 
 div.container{
-    width: 80vw;
+    width: 100vw;
     height: 100vh;
-    margin: auto;
     max-width: 1000px;
     min-width: 600px;
+    margin: auto;
 }
 
 div.card{
@@ -115,6 +117,7 @@ div.card{
     background-repeat: no-repeat;
     background-color: black;
     color: white;
+    margin: auto;
     margin-top: 10px;
     margin-left: 15px;
     border-radius: 10px;
@@ -152,9 +155,9 @@ div.card:hover{
 }
 
 @media screen and (max-width: 767px) /*teleefone*/ {
-   
     
     header{
+        margin: auto;
         background-color: #909090;
         padding: 25px;
         background: url('../imagens/fundo-cards.png') no-repeat center center;
@@ -193,6 +196,7 @@ div.card:hover{
     menu{
         display: block;
         background-color: #505050;
+        margin: auto;
     }
     
     menu > ul{
