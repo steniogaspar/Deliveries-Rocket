@@ -9,32 +9,58 @@
 </head>
 <body>
     <main>
-        <form action="home.html" method="post" autocomplete="on">
-            <p>
-                <label for="iemail">Email</label>
-                <input type="email" name="email" id="iemail" autocomplete="email" required maxlength="32" placeholder="Coloque seu email">
-            </p>
-            <p>
-                <label for="isenha">Senha</label>
-                <input type="password" name="senha" id="isenha" autocomplete="new-password" minlength="8" maxlength="32" required placeholder="Coloque a senha">
-            </p>
-            <p>
-                <label for="inome">Nome</label>
-                <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome de usuario">
-            </p>
-            <p>
-                <label for="icartão">Dados do Cartão</label>
-                    <input type="number" name="cartão" id="icartão" required maxlength="16"  minlength="12" placeholder="0000-0000-0000-0000">
-            </p>
-            <p>
-                <label for="isenha-cartao">Codigo do cartão</label>
-                <input type="password" name="senha-cartao" id="isenha-cartao" required minlength="2" maxlength="4" placeholder="XXXX">
-            </p>
-            <p>
-                <input id="confirmar" type="submit" value="Confirmar">
-                <input id="cancelar" type="reset" value="Cancelar">
-            </p>
-        </form>
+        <fieldset>
+            <legend><strong>Login de comprador</strong></legend>
+            <form action="home.html" method="post" autocomplete="off">
+                <p>
+                    <label id="nomee" for="inome">Nome na plataforma</label>
+                    <br>
+                    <input type="text" name="nome" id="inome" required maxlength="15" minlength="5" placeholder="Máximo 15 caracteres">
+                </p>
+
+                <p>
+                    <label for="iemail">Email</label>
+                    <br>
+                    <input type="email" name="email" id="iemail" required maxlength="30" minlength="4" placeholder="seuemail@gmail.com">
+                </p>
+                
+                <p>
+                    <label for="isenha">Senha</label>
+                    <br>
+                    <input type="password" name="senha" id="isenha" required minlength="8" placeholder="+ de 8 caracteres">
+                </p>
+
+                <p>
+                    <label for="icartao">Dados do Cartão</label>
+                    <br>
+                    <input type="text" name="cartao" id="icartao" required maxlength="19" minlength="4" placeholder="0000-0000-0000-0000">
+                </p>
+
+                <p>
+                    <label for="idata"><strong>Data de Nascimento</strong></label>
+                    <input type="date" name="data" id="idata">
+                </p>
+
+                <fieldset>
+                    <legend>Genéro</legend>
+                    <p id="genero">
+                        <input type="radio" name="genero" id="imasculino" required value="masculino">
+                        <label for="imasculino">Masculino</label>
+                        
+                        <input type="radio" name="genero" id="ifeminino" required value="feminino">
+                        <label for="ifeminino">feminino</label>
+                        
+                        <input type="radio" name="genero" id="ioutro" required value="masculino">
+                        <label for="ioutro">Outro</label>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <input id="confirmar" type="submit" value="Confirmar">
+                    <input id="cancelar" type="reset" value="Cancelar">
+                </p>
+            </form>
+        </fieldset>
     </main>
 </body>
 </html>
