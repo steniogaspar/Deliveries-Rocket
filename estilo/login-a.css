@@ -1,9 +1,18 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Saira&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Saira&display=swap');
+
+
 *{
     margin: 0px;
 }
 
+:root{
+    --font-login: 'Saira', sans-serif;
+    --font-input: 'Roboto Condensed', sans-serif;
+}
 
 html, body{
     width: 100vw;
@@ -26,6 +35,7 @@ label{
     color: white;
     font-weight: bold;
     margin-top: 10px;
+    font-family: var(--font-login);
 }
 
 input{
@@ -36,6 +46,7 @@ input{
     padding: 15px;
     color: white;
     background-color: transparent;
+    font-family: var(--font-input);
 }
 
 fieldset{
@@ -71,6 +82,7 @@ form > p{
     padding: 10px;
     transition-duration: 0.3s;
     cursor: pointer;
+    font-family: var(--font-login);
 }
 
 #cancelar:hover{
@@ -84,6 +96,7 @@ form > p{
     padding: 10px;
     transition-duration: 0.3s;
     cursor: pointer;
+    font-family: var(--font-login);
 }
 
 #confirmar:hover{

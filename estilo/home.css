@@ -151,7 +151,7 @@ div.card h3::after{
 
 div.card:hover{
     transition: 0.4s;
-    color: white;
+    transform: translate(-5px, -5px);
 }
 
 @media screen and (max-width: 767px) /*teleefone*/ {
@@ -206,7 +206,7 @@ div.card:hover{
     }
     
     menu > a{
-        padding: 10px;
+        padding: 15px;
         text-decoration: none;
         background-color: #292929;
         color: green;
@@ -268,6 +268,132 @@ div.card:hover{
     margin-left: 30px;
     border-radius: 10px;
     float: left;
+}
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) /*Tablet*/{
+    header{
+        margin: auto;
+        background-color: #909090;
+        padding: 25px;
+        background: url('../imagens/fundo-cards.png') no-repeat center center;
+        background-size: cover;
+    }
+    
+    header > h1{
+        font-size: 2.3em;
+        text-align: center;
+        color: white;
+    }
+    
+    header > p{
+        text-align: center;
+        font-weight: bold;
+        margin-top: 10px;
+        color: white;
+        font-size: 1.3em;
+    }
+    
+    i#burguer{
+        background-color: #404040;
+        color: rgb(255, 255, 255);
+        font-size: 2em;
+        display: block;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+        padding: 17px;
+    }
+    
+    i#burguer:hover{
+        background-color: white;
+        color: black;
+    }
+    
+    menu{
+        display: block;
+        background-color: #505050;
+        margin: auto;
+    }
+    
+    menu > ul{
+        list-style-type: none;
+        display: inline-flex;
+    }
+    
+    menu > a{
+        padding: 15px;
+        text-decoration: none;
+        background-color: #292929;
+        color: green;
+        text-align: center;
+        font-weight: bold;
+        display: inline-flex;
+        border-radius: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 10px;
+        transition-duration: 0.4s;
+    }
+    
+    menu > a:hover{
+        background-color: white;
+        color: green;
+        transform: translate(-2px, -2px);
+    }
+    
+    menu > ul > li{
+        background-color: green;
+    }
+    
+    menu > ul > li > a:hover{
+        background-color: rgb(193, 190, 190);
+        color: #595959;
+    }
+    
+    .used{
+        background-color: green;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .used:hover{
+        color: white;
+        background-color: green;
+    }
+
+    div.container{
+        margin-left: 3px;
+        width: 100vw;
+        max-width: 1000px;
+        min-width: 600px;
+   } 
+
+   div.card{
+    height: 220px;
+    width: 230px;
+    background-image: url('../imagens/fundo-card001.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    /*background-image: url('../imagens/fundo-cards.png');*/
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 60px;
+    border-radius: 10px;
+    float: left;
+}
+
+div.card h3::after{
+    content: '';
+    display: block;
+    background-color: blueviolet;
+    width: 230px;
+    height: 2px;
+    color: white;
 }
 
 }
