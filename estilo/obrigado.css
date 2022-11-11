@@ -6,42 +6,67 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
     background-color: #292929;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-main{
-    width: 400px;
-    height: 400px;
+div.container{
+    width: 500px;
+    background-color: white;
+    color: black;
     margin: auto;
-    margin-top: 30px;
-    max-width: 1000px;
-    min-width: 300px;
+    border-radius: 10px;
+    height: 144vh;
+    top: 3%;
+    left: 50%;
+    bottom: 3%;
+    transform: translate(0%, 2%, 2%);
 }
 
-p.sucefull{
+h1.obg{
     text-align: center;
+}
+
+h1.obg::after{
+    content: '';
+    background-color: blueviolet;
+    display: block;
+    height: 2px;
+    width: 500px;
+    color: white;
 }
 
 h2{
-    color: green;
     text-align: center;
 }
 
-.alert{
+p#link{
     text-align: center;
-    margin: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+a.back{
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 div.card{
-    height: 120px;
-    width: 130px;
+    height: 190px;
+    width: 200px;
     background-color: black;
     color: white;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 50px;
     border-radius: 10px;
     float: left;
-    margin: auto;
-    margin-left: 3px;
+    margin-left: 35px;
 }
 
 div.card p.img{
@@ -64,12 +89,7 @@ div.card h3::after{
     content: '';
     display: block;
     background-color: blueviolet;
-    width: 130px;
+    width: 200px;
     height: 2px;
     color: white;
-}
-
-div.card:hover{
-    transition: 0.4s;
-    border-radius: 1px solid white;
 }

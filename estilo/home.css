@@ -32,6 +32,15 @@ header > p{
     font-size: 1.3em;
 }
 
+header  a{
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
 i#burguer{
     background-color: #404040;
     color: rgb(255, 255, 255);
@@ -110,11 +119,6 @@ div.container{
 div.card{
     height: 240px;
     width: 250px;
-    background-image: url('../imagens/fundo-card001.png');
-    background-repeat: no-repeat;
-    background-position: right top;
-    /*background-image: url('../imagens/fundo-cards.png');*/
-    background-repeat: no-repeat;
     background-color: black;
     color: white;
     margin: auto;
@@ -147,11 +151,6 @@ div.card h3::after{
     width: 250px;
     height: 2px;
     color: white;
-}
-
-div.card:hover{
-    transition: 0.4s;
-    transform: translate(-5px, -5px);
 }
 
 @media screen and (max-width: 767px) /*teleefone*/ {
@@ -256,11 +255,6 @@ div.card:hover{
    div.card{
     height: 240px;
     width: 250px;
-    background-image: url('../imagens/fundo-card001.png');
-    background-repeat: no-repeat;
-    background-position: right top;
-    /*background-image: url('../imagens/fundo-cards.png');*/
-    background-repeat: no-repeat;
     background-color: black;
     color: white;
     margin: auto;
@@ -373,11 +367,6 @@ div.card:hover{
    div.card{
     height: 220px;
     width: 230px;
-    background-image: url('../imagens/fundo-card001.png');
-    background-repeat: no-repeat;
-    background-position: right top;
-    /*background-image: url('../imagens/fundo-cards.png');*/
-    background-repeat: no-repeat;
     background-color: black;
     color: white;
     margin: auto;
