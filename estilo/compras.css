@@ -84,6 +84,7 @@ input#inumber{
     width: 50px;
     font-weight: bold;
     text-align: center;
+    outline: none;
 }
 
 a.bt-compra{

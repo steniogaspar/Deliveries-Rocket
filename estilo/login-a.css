@@ -21,85 +21,124 @@ html, body{
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #292929;
+    background-image: linear-gradient( to left, #292929, #353535);
+    background-attachment: fixed;
 }
 
 main{
-    margin-top: 15px;
     background-color: #404040;
+    width: 400px;
     margin: auto;
-    width: 600px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    box-shadow: 1px 1px 12px black;
+}
+
+fieldset{
+    position: relative;
+    border: 2px solid white;
+}
+
+fieldset > legend{
+    background-image: linear-gradient(to left, #505050, #808080);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid white;
+    font-family: var(--font-login);
+}
+
+form  > fieldset > p{
+    position: relative;
 }
 
 label{
     color: white;
-    font-weight: bold;
-    margin-top: 10px;
-    font-family: var(--font-login);
 }
 
 input{
+    padding: 10px;
     border: none;
-    border-bottom: 1px solid gray;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border-radius: 10px;
-    padding: 15px;
-    color: white;
+    border-bottom: 1.5px solid white;
     background-color: transparent;
+    width: 99%;
+    outline: none;
+    letter-spacing: 1px;
+    color: white;
+    font-size: 0.9em;
+    margin-top: 15px;
     font-family: var(--font-input);
 }
 
-fieldset{
-    border: 2px solid #505050;
-    width: 400px;
-    display: block;
-    margin: auto;
-}
+#idata label{
+    font-family: var(--font-login);
+} 
 
-fieldset > legend{
-    text-align: center;
-    color: white;
-    background-image: linear-gradient(to right, #505050, #292929);
+#idata{
+    background-color: white;
+    width: 110px;
     border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    left: 10px;
+    color: black;
 }
 
-#genero{
-    text-align: center;
+#imasculino, #ifeminino, #ioutro{
+    margin-top: 0px;
+    position: relative;
+    left: 0px;
+    display: inline-flex;
+    padding: 0px;
+    font-size: 1em;
 }
 
-#ifeminino, #ioutro{
-    margin-left: 15px;
-}
-
-form > p{
-    text-align: center;
-}
-
-#cancelar{
-    border-color: red;
+::placeholder{ 
     color: white;
-    font-weight: bold;
-    padding: 10px;
-    transition-duration: 0.3s;
-    cursor: pointer;
     font-family: var(--font-login);
 }
 
-#cancelar:hover{
-    background-color: red;
+form  > fieldset > p:focus ~ .label-input{
+    top: -20px;
 }
 
-#confirmar{
-    border-color: green;
-    color: white;
-    font-weight: bold;
-    padding: 10px;
-    transition-duration: 0.3s;
-    cursor: pointer;
-    font-family: var(--font-login);
+.enviar{
+    text-align: center;
 }
 
-#confirmar:hover{
+#submit{
+    text-align: center;
+    border: none;
     background-color: green;
+    font-family: var(--font-login);
+    border-radius: 10px;
+    width: 60%;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: white;
+    color: green;
+    transition-duration: 0.4s;
+}
+
+p.link{
+    text-align: center;
+    margin-top: 15px;
+}
+
+a#anonimo{
+    margin-top: 5px;
+    color: #222222;
+    text-decoration: none;
+    font-family: var(--font-login);
+}
+
+a#anonimo:hover{
+    text-decoration: underline;
 }
