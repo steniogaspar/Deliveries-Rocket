@@ -27,7 +27,7 @@ body{
 
 main{
     background-color: #404040;
-    width: 400px;
+    width: 800px;
     margin: auto;
     padding: 20px;
     position: absolute;
@@ -36,6 +36,8 @@ main{
     transform: translate(-50%, -50%);
     padding: 15px;
     box-shadow: 1px 1px 12px black;
+    max-width: 800px;
+    min-width: 400px;
 }
 
 fieldset{
@@ -141,4 +143,23 @@ a#anonimo{
 
 a#anonimo:hover{
     text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+    
+    main{
+        background-color: #404040;
+        width: 400px;
+        margin: auto;
+        padding: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 15px;
+        box-shadow: 1px 1px 12px black;
+        max-width: 800px;
+        min-width: 400px;
+    }
+
 }
