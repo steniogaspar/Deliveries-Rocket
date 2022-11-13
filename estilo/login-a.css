@@ -29,6 +29,7 @@ main{
     background-color: #404040;
     width: 800px;
     margin: auto;
+    border-radius: 5px;
     padding: 20px;
     position: absolute;
     top: 50%;
