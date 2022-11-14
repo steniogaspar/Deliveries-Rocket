@@ -2,7 +2,6 @@
 
 *{
     margin: 0px;
-    padding: 0px;
 }
 
 body{
@@ -159,6 +158,12 @@ div.card h3::after{
 
 @media screen and (max-width: 767px) /*teleefone*/ {
     
+
+    html, body{
+        width: 100vw;
+    }
+
+
     header{
         margin: auto;
         background-image: linear-gradient(to top, #292929, #606060);
