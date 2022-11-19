@@ -18,14 +18,20 @@ body{
 }
 
 main{
-    width: 85%;
+    width: 80%;
     background-color: transparent;
     margin: auto;
     padding: 20px;
 }
 
+h1{
+    color: var(--cor-botão);
+    text-align: center;
+}
+
 a{
     text-decoration: none;
+    width: 320px;
 }
 
 div.card{
@@ -33,27 +39,58 @@ div.card{
     background-color: transparent;
     height: 30vh;
     margin-top: 10px;
-    border: 1px solid #999999;
+    border: 1px solid greenyellow;
     border-radius: 5px;
+    margin-left: 20px;
 }
 
 div.card:hover{
-    box-shadow: inset 0px 0px 26px -11px black;
+    box-shadow: inset 0px 0px 23px 3px black;
+    transition-duration: 0.5s;
+    border-color: #292929;
 }
 
 div.card > p > a{
     text-decoration: none;
     color: greenyellow;
+    display: none;
 }
 
 div.card > p.link{
     margin-top: 20px;
     font-size: 2.1em;
     color: greenyellow;
+    display: none;
 }
 
 div.card > p{
     margin-top: 10px;
-    font-size: 1.2em;
-    color: white;
+    font-size: 1em;
+    color: #565656;
+}
+
+#ingles{
+    background-image: url('../imagens/curso-de-ingles-flayer.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: 1px solid greenyellow;
+}
+
+#ingles:hover{
+    border: 2px solid greenyellow;
+}
+
+#mar-digital{
+    background-image: url('../imagens/curso-de-mark-digital-flayer.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: 1px solid white;
+}
+
+#mar-digital:hover{
+    box-shadow: inset 0px 0px 38px 11px black;
+    transition-duration: 0.5s;
+    border-color: #D7031E;
 }
