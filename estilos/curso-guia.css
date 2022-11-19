@@ -6,72 +6,54 @@
 }
 
 :root{
-    --cor-menu: #161B22; 
-    --cor-fundo: #0D1117;
-    --cor-letra: #6D747E;
-    --cor-link: #58A6FF;
-}
-
-html, body{
-    width: 100vw;
+    --cor-fundo: #1A1A1A;
+    --cor-botão: #17A2B8;
+    --cor-link-norm: #232323;
+    --cor-link-used: #353535;
 }
 
 body{
-    background-color: #0D1117;
+    background-color: var(--cor-fundo);
     font-family: Arial, Helvetica, sans-serif;
-    color: #6D747E;
-}
-
-menu{
-    background-color: var(--cor-menu);
-    display: block;
-    padding: 20px;
-}
-
-ul{
-    display: inline-flex;
-    list-style: none;
-}
-
-menu a{
-    text-decoration: none;
-    color: white;
-    margin-left: 15px;
-}
-
-menu a:hover{
-    color: #6D747E;
 }
 
 main{
+    width: 85%;
     background-color: transparent;
-    width: 600px;
     margin: auto;
-    margin-top: 10px;
+    padding: 20px;
 }
 
-div.card{
-    margin-top: 10px;
-    border: 1px solid var(--cor-letra);
-    height: 17vh;
-    width: 26vw;
-    border-radius: 5px;
-}
-
-div.card > a > p{
-    color: var(--cor-link);
-    font-weight: bold;
-}
-
-div.card > a{
+a{
     text-decoration: none;
 }
 
-div.card a:hover{
-    text-decoration: underline;
-    color: var(--cor-link);
+div.card{
+    width: 320px;
+    background-color: transparent;
+    height: 30vh;
+    margin-top: 10px;
+    border: 1px solid #999999;
+    border-radius: 5px;
+}
+
+div.card:hover{
+    box-shadow: inset 0px 0px 26px -11px black;
+}
+
+div.card > p > a{
+    text-decoration: none;
+    color: greenyellow;
+}
+
+div.card > p.link{
+    margin-top: 20px;
+    font-size: 2.1em;
+    color: greenyellow;
 }
 
 div.card > p{
     margin-top: 10px;
+    font-size: 1.2em;
+    color: white;
 }
