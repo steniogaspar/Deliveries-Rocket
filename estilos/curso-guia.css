@@ -35,17 +35,17 @@ a{
 }
 
 div.card{
-    width: 320px;
+    display: inline-flex;
+    width: 290px;
     background-color: transparent;
-    height: 30vh;
+    height: 25vh;
     margin-top: 10px;
-    border: 1px solid greenyellow;
     border-radius: 5px;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 div.card:hover{
-    box-shadow: inset 0px 0px 23px 3px black;
+    box-shadow: inset 0px 0px 13px -5px black;
     transition-duration: 0.5s;
     border-color: #292929;
 }
@@ -74,11 +74,6 @@ div.card > p{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    border: 1px solid greenyellow;
-}
-
-#ingles:hover{
-    border: 2px solid greenyellow;
 }
 
 #mar-digital{
@@ -86,11 +81,10 @@ div.card > p{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    border: 1px solid white;
 }
 
 #mar-digital:hover{
-    box-shadow: inset 0px 0px 38px 11px black;
+    box-shadow: inset 0px 0px 13px -5px black;
     transition-duration: 0.5s;
     border-color: #D7031E;
 }
