@@ -61,7 +61,6 @@ img{
 
 @media screen and (max-width:767px){
     div.video{
-        margin: auto;
         background-color: white;
         width: 445px;
         height: 350px;
