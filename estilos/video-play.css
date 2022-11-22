@@ -20,11 +20,31 @@ body{
 
 div.video{
     background-color: white;
-    width: 550px;
+    width: 570px;
     height: 350px;
     margin-top: 15px;
     margin-left: 15px;
     border-radius: 5px;
+}
+
+div.desc{
+    background: linear-gradient(to top, #232323, #353535) fixed;
+    border-radius: 5px;
+    color: white;
+    width: 480px;
+    position: relative;
+    top: -50%;
+    left: -50%;
+    transform: translate(108%, 8%);
+}
+
+div.desc > h1{
+    text-align: center;
+    color: var(--cor-link-norm);
+}
+
+div.desc > p{
+    margin-left: 5px;
 }
 
 div.escolha{
