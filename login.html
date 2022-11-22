@@ -9,13 +9,46 @@
 </head>
 <body>
     <main>
-        <form action="curso-guia.html" method="get">
-            <fieldset>
-                <legend>
-                    Nome
-                </legend>
-                <input type="text" name="nome" id="inome">
-            </fieldset>
+        <p class="img"><img src="imagens/ts-logo.png" alt="Logo da Tecno Space"></p>
+        <form action="curso-guia.html" method="get" autocomplete="on">
+            <p>
+                <fieldset>
+                    <legend>
+                        Nome
+                    </legend>
+                    <input type="text" name="nome" id="inome" autocomplete="name" required maxlength="19">
+                </fieldset>
+            </p>
+
+            <p>
+                <fieldset>
+                    <legend>
+                        sobrenome
+                    </legend>
+                    <input type="text" name="sobrenome" id="isobrenome" autocomplete="name" required maxlength="19">
+                </fieldset>
+            </p>
+
+            <p>
+                <fieldset>
+                    <legend>
+                        Email
+                    </legend>
+                    <input type="email" name="email" id="iemail" autocomplete="email" required maxlength="30" minlength="5">
+                </fieldset>
+            </p>
+            
+            <p>
+                <fieldset>
+                    <legend>
+                        senha
+                    </legend>
+                    <input type="password" name="senha" id="isenha" autocomplete="new-password" required minlength="8">
+                </fieldset>
+            </p>
+            <p>
+                <input id="enviar" type="submit" value="CONTINUAR">
+            </p>
         </form>
     </main>
 </body>
