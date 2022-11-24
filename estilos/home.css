@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: #202020;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+menu{
+    background-color: black;
+    height: 5vh;
+    padding: 30px;
+    background-image: url('../imagens/ts-logo-menu.png');    
+    background-repeat: no-repeat;
+    background-position: left left;
+}
+
+menu > p{
+    text-align: right;
+}
+
+menu a{
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+a#home{
+    color: blueviolet;
+}
+
+menu a:hover{
+    transition-duration: 0.5s;
+    color: blueviolet;
+}
+
+main{
+    width: 100%;
+}
+
+div.img-fundo{
+    color: white;
+    height: 100vh;
+    background-color: #292929;
+    background-image: url('../imagens/curso-de-ingles-thumb.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div.img-fundo > h1{
+    font-size: 3em;
+    text-align: center;
+    font-weight: normal;
+}
+
+div.info{
+    background-color: #292929;
+}
+
+div.info > p{
+    padding: 20px;
+    margin-left: px;
+}
+
+div.info > h1{
+    text-align: center;
+}
+
+div.info strong{
+    display: inline-flex;
+    margin-left: 15px;
+}
+
+div.info-b{
+    width: 250px;
+    float: left;
+}
+
+div.info-b > h1{
+    font-weight: normal;
+    margin-top: 50px;
+    font-size: 3em;
+    text-align: center;
+    color: blueviolet;
+}
+
+div.info-b > p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 2em;
+}
+
+p.dem{
+    width: 100px;
+    margin-bottom: 15px;
+    display: inline-flex;
+}
+
+div.apr{
+    width: 100%;
+    background-color: #393939;
+    height: 80vh;
+    background-image: url('../imagens/curso-de-mark-digital-flayer.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
