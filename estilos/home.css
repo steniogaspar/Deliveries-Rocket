@@ -53,6 +53,7 @@ div.img-fundo{
 }
 
 div.img-fundo > h1{
+    padding-top: 280px;
     font-size: 3em;
     text-align: center;
     font-weight: normal;
@@ -64,7 +65,6 @@ div.info{
 
 div.info > p{
     padding: 20px;
-    margin-left: px;
 }
 
 div.info > h1{
@@ -104,8 +104,19 @@ p.dem{
 div.apr{
     width: 100%;
     background-color: #393939;
-    height: 80vh;
-    background-image: url('../imagens/curso-de-mark-digital-flayer.jpeg');
+    height: 90vh;
+    background-image: url('../imagens/A230E81C-E6A6-40E8-A170-5CCBAF36AA2F.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top top;
+}
+
+div.art{
+    width: 350px;
+    padding: 20px;   
+}
+
+div.art h1{
+    font-weight: normal;
+    padding-top: 130px;
 }
