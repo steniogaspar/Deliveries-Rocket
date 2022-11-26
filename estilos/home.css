@@ -120,3 +120,18 @@ div.art h1{
     font-weight: normal;
     padding-top: 130px;
 }
+
+div.redes-sociais > p{
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-size: 1.3em;
+}
+
+div.redes-sociais a{
+    color: white;
+    text-decoration: none;
+}
+
+div.redes-sociais a:hover{
+    text-decoration: underline;
+}
