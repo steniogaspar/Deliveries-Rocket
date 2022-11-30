@@ -30,12 +30,12 @@ menu a{
 }
 
 a#home{
-    color: blueviolet;
+    color: darkblue;
 }
 
 menu a:hover{
     transition-duration: 0.5s;
-    color: blueviolet;
+    color: darkblue;
 }
 
 main{
@@ -44,7 +44,7 @@ main{
 
 div.img-fundo{
     color: white;
-    height: 100vh;
+    height: 82.5vh;
     background-color: #292929;
     background-image: url('../imagens/curso-de-ingles-thumb.jpeg');
     background-repeat: no-repeat;
@@ -86,7 +86,7 @@ div.info-b > h1{
     margin-top: 50px;
     font-size: 3em;
     text-align: center;
-    color: blueviolet;
+    color: darkblue;
 }
 
 div.info-b > p{
@@ -113,12 +113,18 @@ div.apr{
 
 div.art{
     width: 350px;
-    padding: 20px;   
+    padding: 20px;  
+    float: left;
 }
 
 div.art h1{
+    color: darkblue;
     font-weight: normal;
     padding-top: 130px;
+}
+
+#logo{
+    width: 400px;
 }
 
 div.redes-sociais > p{
