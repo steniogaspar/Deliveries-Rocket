@@ -105,7 +105,7 @@ div.apr{
     width: 100%;
     background-color: #393939;
     height: 90vh;
-    background-image: url('../imagens/A230E81C-E6A6-40E8-A170-5CCBAF36AA2F.jpeg');
+    background-image: url('../imagens/Captura\ de\ Tela\ \(5\).png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top top;
@@ -118,7 +118,7 @@ div.art{
 }
 
 div.art h1{
-    color: darkblue;
+    color: white;
     font-weight: normal;
     padding-top: 130px;
 }
