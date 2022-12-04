@@ -10,6 +10,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+main{
+    width: 100%;
+}
+
 menu{
     background-color: black;
     height: 5vh;
@@ -36,10 +40,6 @@ a#home{
 menu a:hover{
     transition-duration: 0.5s;
     color: darkblue;
-}
-
-main{
-    width: 100%;
 }
 
 div.img-fundo{
@@ -95,17 +95,11 @@ div.info-b > p{
     font-size: 2em;
 }
 
-p.dem{
-    width: 100px;
-    margin-bottom: 15px;
-    display: inline-flex;
-}
-
 div.apr{
     width: 100%;
     background-color: #393939;
     height: 90vh;
-    background-image: url('../imagens/Captura\ de\ Tela\ \(5\).png');
+    background-image: url('../imagens/Captura\ de\ Tela\ \(7\).png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top top;
@@ -123,8 +117,85 @@ div.art h1{
     padding-top: 130px;
 }
 
+p.dem{
+    width: 100px;
+    margin-bottom: 15px;
+    display: inline-flex;
+}
+
 #logo{
     width: 400px;
+}
+
+.alert{
+    padding: 20px;
+    text-align: center;
+    color: darkblue;
+}
+
+div.criticas{
+    background-color: black;
+    background-image: url('../imagens/criticas-fundo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top top;
+}
+
+div.criticas-b{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    width: 250px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+div.criticas-b > p{
+    font-size: 1.4em;
+}
+
+p.img img{
+    width: 20%;
+}
+
+p.img{
+    color: darkblue;
+    padding-bottom: 25px;
+}
+
+div.reclame{
+    background-color: #606060;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+div.reclame a{
+    text-decoration: none;
+    color: white;
+}
+
+div.reclame-b > a > p{
+    border: 1px solid white;
+    width: 200px;
+    display: block;
+    margin: auto;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+div.reclame-b > a > p:hover{
+    background-color: white;
+    color: #606060;
+    transition-duration: 0.5s;
+}
+
+div.reclame-b  > p{
+    color: #202020;
 }
 
 div.redes-sociais > p{
