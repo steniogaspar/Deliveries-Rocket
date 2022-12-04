@@ -46,10 +46,11 @@ div.img-fundo{
     color: white;
     height: 82.5vh;
     background-color: #292929;
-    background-image: url('../imagens/curso-de-ingles-thumb.jpeg');
+    background-image: url('../imagens/plutao-fundo.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: left top;
 }
 
 div.img-fundo > h1{
@@ -57,10 +58,13 @@ div.img-fundo > h1{
     font-size: 3em;
     text-align: center;
     font-weight: normal;
+    color: black;
 }
 
 div.info{
     background-color: #292929;
+    animation: backinup;
+    transition-duration: 1s;
 }
 
 div.info > p{
@@ -77,8 +81,14 @@ div.info strong{
 }
 
 div.info-b{
-    width: 250px;
-    float: left;
+    width: 240px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+div.info-b > h1::selection{
+    background-color: #202020;
+    color: white;
 }
 
 div.info-b > h1{
@@ -92,23 +102,23 @@ div.info-b > h1{
 div.info-b > p{
     margin-top: 30px;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 div.apr{
     width: 100%;
     background-color: #393939;
-    height: 90vh;
     background-image: url('../imagens/Captura\ de\ Tela\ \(7\).png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top top;
+    padding-bottom: 50px;
 }
 
 div.art{
     width: 350px;
     padding: 20px;  
-    float: left;
+    display: inline-block;
 }
 
 div.art h1{
@@ -125,20 +135,18 @@ p.dem{
 
 #logo{
     width: 400px;
-}
-
-.alert{
-    padding: 20px;
-    text-align: center;
-    color: darkblue;
+    display: inline-block;
 }
 
 div.criticas{
-    background-color: black;
-    background-image: url('../imagens/criticas-fundo.jpg');
+    background-color: #303030;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top top;
+}
+
+div.criticas > h1{
+    text-align: center;
 }
 
 div.criticas-b{
@@ -191,7 +199,7 @@ div.reclame-b > a > p{
 div.reclame-b > a > p:hover{
     background-color: white;
     color: #606060;
-    transition-duration: 0.5s;
+    transition-duration: 0.6s;
 }
 
 div.reclame-b  > p{
