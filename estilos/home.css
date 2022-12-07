@@ -220,10 +220,3 @@ div.redes-sociais a{
 div.redes-sociais a:hover{
     text-decoration: underline;
 }
-
-
-/*Smartphone*/
-
-@media screen and (max-width: 767px) {
-    
-}
