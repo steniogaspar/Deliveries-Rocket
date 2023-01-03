@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Lato&family=Roboto&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor-de-fundo: #081226;
+    --cor-de-blocos: #142B59;
+    --cor-secundaria: #646E78;
+    --cor-de-destaque: #FFC800;
+    --cor-da-letra: #FFFFF2;
+    --fonte-de-texto: 'Roboto', sans-serif;
+    --fonte-de-titulo: 'Lato', sans-serif;
+    --fonte-de-destaque: 'Dosis', sans-serif;
+}
+
+body{
+    background-color: var(--cor-de-blocos);
+    color: black;
+    font-family: var(--fonte-de-texto);
+}
+
+h1,h2{
+    font-family: var(--fonte-de-titulo);
+}
+
+menu{
+    background-color: var(--cor-de-fundo);
+    height: 15vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div.img{
+    display: inline-flex;
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 640px;
+}
+
+div.img > a{
+    width: 130px;
+}
+
+div.img > a > p{
+    text-align: left;
+}
+
+div.img > a > p > img{
+    width: 90%;
+}
+
+div.img > a > p > img::selection{
+    background-color: #142B59;
+}
+
+div.menu{
+    display: inline-flex;
+    width: 360px;
+}
+
+div.menu p{
+    text-align: right;
+}
+
+menu p{
+    text-align: right;
+}
+
+menu p::selection{
+    background-color: #142B59;
+    color: var(--cor-de-destaque);
+}
+
+menu a{
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+menu a::selection{
+    background-color: #142B59;
+    color: var(--cor-de-destaque);
+}
+
+menu a:hover{
+    color: var(--cor-de-destaque);
+    transition-duration: 0.3s;
+}
+
+#used{
+    color: var(--cor-de-destaque);
+}
+
+#used:hover{
+    color: white;
+}
+
+main{
+    width: 100%;
+}
+
+div.apr-titulo-desc{
+    height: 70vh;
+    background-color: #646E78;
+    background-image: url('../imagens/social-media-gc71d97d5f_1920.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div.apr-titulo-desc > h1{
+    text-align: center;
+    padding-top: 50px;
+    color: var(--cor-de-blocos);
+    font-size: 4em;
+    margin-bottom: 100px;
+}
+
+div.apr-titulo-desc > h1::selection{
+    background-color: #142B59;
+    color: var(--cor-de-destaque);
+}
+
+main{
+    width: 100%;
+}
+
+div.category{
+    margin: auto;
+    width: 700px;
+}
+
+div.category > h1{
+    text-align: center;
+    font-size: 2.3em;
+    color: var(--cor-da-letra);
+}
+
+div.category-b{
+    width: 300px;
+    display: inline-block;
+    background-color: transparent;
+}
+
+div.category-b p{
+    text-align: center;
+}
+
+div.category-b img{
+    width: 70%;
+}
+
+div.category-c{
+    width: 300px;
+    display: inline-block;
+    background-color: transparent;
+    padding: 0px;
+}
+
+div.category-c p{
+    text-align: right;
+}
+
+div.category-c img{
+    width: 70%;
+}
