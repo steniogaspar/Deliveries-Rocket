@@ -131,19 +131,22 @@ main{
 
 div.category{
     margin: auto;
-    width: 700px;
+    width: 65%;
+    background-color: transparent;
 }
 
 div.category > h1{
     text-align: center;
     font-size: 2.3em;
     color: var(--cor-da-letra);
+    margin-bottom: 20px;
 }
 
 div.category-b{
     width: 300px;
     display: inline-block;
     background-color: transparent;
+    margin: auto;
 }
 
 div.category-b p{
@@ -151,20 +154,87 @@ div.category-b p{
 }
 
 div.category-b img{
-    width: 70%;
+    width: 90%;
 }
 
 div.category-c{
     width: 300px;
     display: inline-block;
     background-color: transparent;
-    padding: 0px;
+    margin: auto;
 }
 
 div.category-c p{
-    text-align: right;
+    text-align: center;
 }
 
 div.category-c img{
-    width: 70%;
+    width: 90%;
+}
+
+div.mais-vendidos{
+    width: 95%;
+    margin: auto;
+}
+
+div.mais-vendidos > h1{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+div.mais-vendidos-dropbox{
+    width: 260px;
+    display: inline-block;
+    background-color: transparent;
+}
+
+div.mais-vendidos-dropbox-b{
+    width: 260px;
+    display: inline-block;
+    background-color: transparent;
+}
+
+div.mais-vendidos-dropbox, div.mais-vendidos-dropbox-b{
+    margin: auto;
+    margin-bottom: 30px;
+    margin-left: 45px;
+}
+
+div.mais-vendidos-dropbox p, div.mais-vendidos-dropbox-b p{
+    text-align: center;
+}
+
+div.mais-vendidos-dropbox img, div.mais-vendidos-dropbox-b img{
+    width: 110%;
+}
+
+div.info-compra p{
+    text-align: left;
+}
+
+div.info-compra > p > strong{
+    font-size: 1.3em;
+    color: white;
+}
+
+div.info-compra a{
+    color: white;
+    text-decoration: none;
+}
+
+div.info-compra > a > p{
+    width: 200px;
+    text-align: center;
+    background-color: #FFC800;
+    display: block;
+    padding: 15px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+div.info-compra > a > p:hover{
+    background-color: #bd9504;
+    transition-duration: 0.5s;
 }
