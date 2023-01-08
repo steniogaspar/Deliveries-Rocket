@@ -131,6 +131,7 @@ div.apr-titulo-desc p{
     background-color: var(--cor-de-destaque);
     display: block;
     margin-top: 25px;
+    margin-bottom: 25px;
     padding: 10px;
     border-radius: 20px;
     margin: auto;
@@ -147,6 +148,8 @@ a.link{
     color: #FFFFFF;
     text-decoration: none;
     width: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 a.link::selection{
@@ -191,7 +194,7 @@ div.info-b{
     font-weight: normal;
     color: #FFC800;
     display: inline-block;
-    width: 500px;
+    width: 450px;
     height: 15vh;
     padding-top: 80px;
 }

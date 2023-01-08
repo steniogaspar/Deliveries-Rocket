@@ -210,6 +210,10 @@ div.mais-vendidos-dropbox img, div.mais-vendidos-dropbox-b img{
     width: 110%;
 }
 
+div.info-compra h3{
+    color: #000000;
+}
+
 div.info-compra p{
     text-align: left;
 }
@@ -237,4 +241,54 @@ div.info-compra > a > p{
 div.info-compra > a > p:hover{
     background-color: #bd9504;
     transition-duration: 0.5s;
+}
+
+div.social-media{
+    height: auto;
+    background-color: var(--cor-de-fundo);
+    color: white;
+}
+
+div.social-media > h1{
+    text-align: center;
+}
+
+div.social-media h1::selection{
+    background-color: #142B59;
+    color: var(--cor-de-destaque);
+}
+
+div.info-c{
+    color: #FFFFFF;
+    display: inline-block;
+    width: 500px;
+    height: 10vh;
+}
+
+#info-cds{
+    text-align: left;
+    margin-left: 15px;
+}
+
+div.info-c > p{
+    margin-top: 20px;
+    text-align: center;
+}
+
+div.info-c p::selection{
+    background-color: #142B59;
+    color: var(--cor-de-destaque);
+}
+
+div.info-c i{
+    margin-left: 50px;
+}
+
+div.info-c a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+div.info-c a:hover{
+    color: #d8d8d8;
 }
