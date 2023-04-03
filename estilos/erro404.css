@@ -14,43 +14,31 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-div.box{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 25%);
-}
-
-img:hover{
-    transition-duration: 0.3s;
-    padding-bottom: 15px;
-    padding-top: 10px;
-}
-
-div.box h1{
+h1{
     text-align: center;
-    margin-bottom: 20px;
+    font-size: 4em;
 }
 
-div.box p{
+a p{
     text-align: center;
-}
-
-div.box h3{
-    text-align: center;
-}
-
-a#confirmar{
     color: white;
     font-weight: bold;
-    text-decoration: none;
-}
-
-a#confirmar > p{    
-    border: 3px solid white;
-    padding: 5px;
+    font-size: 2em;
     width: 100px;
     display: block;
     margin: auto;
-    margin-top: 20px;
+    border: 1px solid white;
+    box-shadow: 2px 2px 20px white;
+    border-radius: 3px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a p:hover{
+    transition-duration: 0.3s;
+    color: black;
+    background-color: white;
+    border-radius: 3px;
 }
