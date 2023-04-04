@@ -14,8 +14,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
-    text-align: center;
+main{
+    margin: auto;
 }
 
 a#voltar{
@@ -44,7 +44,6 @@ a#voltar p:hover{
 div.box{
     margin-top: 20px;
     width: 95vw;
-    margin: auto;
     height: 400px;
     background: url('../imagens/download.jpeg') no-repeat fixed;
     background-size: cover;
@@ -129,7 +128,6 @@ div.fotos{
     width: 260px;
     background-color: gray;
     margin-left: 10px;
-    display: inline-block;
     border-radius: 0px 10px;
     margin-bottom: 40px;
 }
