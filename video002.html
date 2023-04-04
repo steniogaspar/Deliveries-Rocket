@@ -4,16 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/pergunta001.css">
+    <style>
+    body{
+    background-image: url('../Deliveries-Rocket/imagens/fundo\(computador\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container{
+        max-width: 700px;
+        margin: auto;
+    }
+
+    #link{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+    div.video{
+        width: 100%;
+        padding-top: 75%;
+        position: relative;
+    }
+
+    div.video video{
+        width: 100%;
+        height: 60%;
+        position: absolute;
+        top: 0px;
+    }
+    </style>
     <title>Netflix</title>
 </head>
 <body>
-    <main>
-        <h1>VÍDEO 2</h1>
-        <p id="video">
-            <video src="midea/WhatsApp Video 2023-04-03 at 21.00.21.mp4" width="670px" poster="imagens/WhatsApp Image 2023-04-03 at 21.12.09.jpeg" height="440px" controls></video>
-        </p>
-        <p id="link"><a href="index02.html"><img src="imagens/Design_sem_nome__5_-removebg-preview.png" alt="Voltar"></a></p>
-    </main>
+    <h1 id="link"><a href="index02.html"><img src="imagens/Design_sem_nome__5_-removebg-preview.png" alt="Voltar"></a></h1>
+    <div class="container">
+        <div class="video">
+            <video controls width="260" height="140" src="midea/WhatsApp Video 2023-04-03 at 21.00.21.mp4"></video>
+        </div>
+    </div>
 </body>
 </html>

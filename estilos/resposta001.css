@@ -15,10 +15,6 @@ body{
 }
 
 main{
-    color: white;
-    background-color: transparent;
-    width: 350px;
-    border-radius: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
