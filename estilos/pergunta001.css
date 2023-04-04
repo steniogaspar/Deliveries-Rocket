@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url('../imagens/fundo\(computador\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+video{
+    margin: auto;
+    margin-top: 20px;
+}
+
+#video{
+    text-align: center;
+    margin: auto;
+}
+
+#link{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}

@@ -14,14 +14,20 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1{
+    text-align: center;
+}
+
 a#voltar{
     text-decoration: none;
-    color: red;
+    color: white;
     width: 80px;
+    background-color: red;
 }
 
 a#voltar p{
-    text-align: center;background-color: white;
+    text-align: center;
+    background-color: red;
     text-decoration: none;
     padding: 15px;
     font-weight: bold;
@@ -36,21 +42,38 @@ a#voltar p:hover{
 }
 
 div.box{
-    width: 98vw;
+    margin-top: 20px;
+    width: 95vw;
+    margin: auto;
     height: 400px;
-    background-color: white;
+    background: url('../imagens/download.jpeg') no-repeat fixed;
+    background-size: cover;
     border-radius: 10px;
-    color: black;
+    color: white;
 }
 
 div.feed a{
     text-decoration: none;
+    margin: auto;
 }
 
 div.text{
-    width: 450px;
+    height: 390px;
+    width: 300px;
     margin-left: 15px;
     margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+div.videos{
+    height: 390px;
+    width: 680px;
+    display: inline-block;
+    background-color: #0CCDA3;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 p#dedicatoria{
@@ -67,16 +90,24 @@ div.video{
     margin-bottom: 15px;
 }
 
-div#primeiro{
+/*div#primeiro{
     background-image: linear-gradient(to bottom, #BB73E0 20%, #FF8DDB);
+}*/
+
+div#primeiro{
+    background-image: url('../imagens/1.png');
 }
 
-div#segundo{
+/*div#segundo{
     background-image: linear-gradient(to bottom, #A3C9E2 20%, #9618F7);
+}*/
+
+div#segundo{
+    background-image: url('../imagens/2.png');
 }
 
 div#terceiro{
-    background-image: linear-gradient(to bottom, #B60F46 20%, #D592FF);
+    background-image: url('../imagens/Design\ sem\ nome\ \(7\).png');
 }
 
 div#quarto{
@@ -90,6 +121,7 @@ div.video:hover{
 
 div.feed{
     margin-bottom: 30px;
+    margin: auto;
 }
 
 div.fotos{

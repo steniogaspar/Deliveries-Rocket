@@ -21,7 +21,6 @@ h1{
 
 a p{
     text-align: center;
-    color: white;
     font-weight: bold;
     font-size: 2em;
     width: 100px;
@@ -29,6 +28,9 @@ a p{
     margin: auto;
     border: 1px solid white;
     box-shadow: 2px 2px 20px white;
+    border-radius: 3px;
+    color: black;
+    background-color: white;
     border-radius: 3px;
 }
 

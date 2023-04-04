@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to right, #E65758 20%, #771D32);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    color: white;
+    background-color: transparent;
+    width: 350px;
+    margin: auto;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a#voltar{
+    text-decoration: none;
+    color: red;
+    width: 80px;
+}
+
+a#voltar p{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    width: 80px;
+    border-radius: 10px;
+}
